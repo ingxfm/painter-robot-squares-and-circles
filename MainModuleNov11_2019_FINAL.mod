@@ -13,21 +13,11 @@ MODULE MainModule
     CONST robtarget pTrnPoz2:=[[38.86,428.56,256.91],[0.0114772,-0.979957,0.198859,-0.00251302],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget pTrnPoz3:=[[-126.44,428.56,255.37],[0.0114835,-0.980433,0.196501,-0.0025271],[1,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 
-    !HMOTNOSTI EFEKTORU!
     PERS loaddata load_HotWire:=[0.5,[0,0,50],[1,0,0,0],0,0,0];
     PERS loaddata load_Chapadlo:=[2,[0,0,50],[1,0,0,0],0,0,0];
     PERS loaddata load_FIX:=[1,[0,0,50],[1,0,0,0],0,0,0];
 
     VAR bool alive:=TRUE;
-    VAR num nVolba:=0;
-    VAR num nOther:=0;
-    VAR num nKopirovani:=0;
-    VAR num nPolomer:=0;
-    VAR num nStrana_a:=0;
-    VAR num nPocet:=0;
-    VAR num nPocetCvaknitiCelisti:=0;
-    VAR num nPolomerTang:=0;
-    VAR num nPocetCyklu:=0;
     PERS loaddata loadChapadlo:=[2,[0,0,50],[1,0,0,0],0,0,0];
     PERS loaddata loadFIX:=[1,[0,0,50],[1,0,0,0],0,0,0];
 
